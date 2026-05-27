@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cenovus Energy Inc. | Global Upstream Operations & Resource Analytics</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Modern Corporate Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@500;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #F1F5F2; /* Modern clean light green-gray tint */
+            color: #1E2922; 
+        }
+        .heading-font {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+        .code-font {
+            font-family: 'JetBrains Mono', sans-serif;
+        }
+        .enterprise-glass {
+            background: rgba(244, 247, 245, 0.85);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+        }
+        .cenovus-green-accent {
+            background-color: #3B7A57; /* Rich Corporate Green */
+        }
+        .text-cenovus-green {
+            color: #3B7A57;
+        }
+        .border-cenovus-green {
+            border-color: #3B7A57;
+        }
+    </style>
+</head>
+<body class="antialiased selection:bg-[#3B7A57] selection:text-white text-slate-800">
+
+    <!-- Global Corporate Ticker Bar -->
+    <div class="w-full bg-[#1A2E22] text-white py-2 px-6 border-b border-emerald-900/30 text-[11px] code-font flex justify-between items-center overflow-hidden">
+        <div class="flex items-center space-x-6 animate-marquee whitespace-nowrap">
+            <span><strong class="text-emerald-300/60">NYSE:</strong> CVE <span class="text-emerald-400">▲ $22.45 (+1.14%)</span></span>
+            <span class="hidden sm:inline text-emerald-800">|</span>
+            <span><strong class="text-emerald-300/60">TSX:</strong> CVE <span class="text-emerald-400">▲ $30.82 (+1.08%)</span></span>
+            <span class="hidden sm:inline text-emerald-800">|</span>
+            <span><strong class="text-emerald-300/60">PRODUCTION:</strong> 785,000 BOE/D</span>
+            <span class="hidden sm:inline text-emerald-800">|</span>
+            <span><strong class="text-emerald-300/60">RESERVES NODE:</strong> ACTIVE // VERIFIED</span>
+        </div>
+        <div class="hidden md:flex items-center space-x-2 text-emerald-300/80">
+            <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+            <span>EDGAR SEC SECURE DATA LINK ACTIVE</span>
+        </div>
+    </div>
+
+    <!-- Institutional Header Navigation -->
+    <header class="w-full py-5 px-6 md:px-12 border-b border-emerald-900/10 flex justify-between items-center enterprise-glass sticky top-0 z-50 shadow-xs">
+        <div class="flex items-center space-x-3 group">
+            <div class="w-7 h-7 cenovus-green-accent flex items-center justify-center rounded-xs shadow-sm">
+                <span class="text-white text-[11px] font-black tracking-tighter">C</span>
+            </div>
+            <div class="flex flex-col leading-none">
+                <span class="heading-font text-xl font-bold uppercase tracking-tight text-emerald-950">cenovus</span>
+                <span class="text-[8px] font-bold tracking-widest text-emerald-700/80 uppercase mt-0.5">ENERGY INC.</span>
+            </div>
+        </div>
+        
+        <!-- Corporate Main Navigation Link Array -->
+        <nav class="hidden lg:flex space-x-8 text-xs font-semibold uppercase tracking-wider text-emerald-800/80">
+            <a href="#about" class="hover:text-emerald-950 transition-colors">Company Profile</a>
+            <a href="#operations" class="hover:text-emerald-950 transition-colors">Operations</a>
+            <a href="#governance" class="hover:text-emerald-950 transition-colors">Sustainability & ESG</a>
+            <a href="#registry" class="hover:text-emerald-950 transition-colors text-emerald-950 font-bold border-b-2 border-cenovus-green pb-1">Investor Registry</a>
+            <a href="#contact" class="hover:text-emerald-950 transition-colors">Media & Contact</a>
+        </nav>
+
+        <div>
+            <a href="#contact" class="text-xs uppercase tracking-wider font-bold bg-[#1A2E22] text-white px-5 py-3 hover:bg-[#3B7A57] transition-all rounded-xs shadow-xs">
+                Request Prospectus
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Institutional Hero Matrix Section -->
+        <section class="relative min-h-[75vh] flex items-center px-6 md:px-12 py-16 bg-[#E8EFEA] border-b border-emerald-900/10">
+            <div class="absolute inset-0 bg-[radial-gradient(#c2d3c9_1px,transparent_1px)] [background-size:24px_24px] pointer-events-none"></div>
+            
+            <div class="max-w-7xl mx-auto w-full z-10 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                <div class="lg:col-span-7 space-y-6">
+                    <div class="inline-flex items-center gap-2 border border-emerald-900/10 bg-white/60 px-3 py-1 rounded text-xs font-semibold text-emerald-900">
+                        <span class="w-2 h-2 rounded-full cenovus-green-accent"></span> 
+                        Notice: Q2 2026 Shareholder Ledger Alignment Finalized
+                    </div>
+                    <h1 class="heading-font text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-emerald-950 leading-[1.05]">
+                        Developing energy <br class="hidden sm:inline">responsibly for a <br class="hidden sm:inline">
+                        <span class="text-cenovus-green">changing world.</span>
+                    </h1>
+                    <p class="max-w-xl text-emerald-900/80 text-sm sm:text-base leading-relaxed">
+                        Cenovus Energy Inc. is an integrated energy company headquartered in Calgary, Canada. We are committed to maximizing value through leadership in safety, environmental performance, and premier asset allocation modeling.
+                    </p>
+                    <div class="pt-2 flex flex-col sm:flex-row gap-4">
+                        <a href="#registry" class="px-6 py-3.5 bg-[#1A2E22] text-white font-bold text-xs uppercase tracking-wider hover:bg-[#233F2E] transition-all text-center rounded-xs shadow-sm">
+                            View Asset Registries
+                        </a>
+                        <a href="#operations" class="px-6 py-3.5 bg-white/80 border border-emerald-900/10 text-emerald-900 font-bold text-xs uppercase tracking-wider hover:bg-white transition-all text-center rounded-xs">
+                            Infrastructure Portfolio
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Financial Data Summary Grid Panel -->
+                <div class="lg:col-span-5 grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div class="bg-white/80 border border-emerald-900/10 p-6 rounded shadow-2xs">
+                        <span class="text-[10px] uppercase tracking-wider font-bold text-emerald-700">Market Capitalization</span>
+                        <div class="text-2xl font-bold text-emerald-950 mt-1 font-sans">$45.8B <span class="text-xs text-emerald-600 font-normal">USD</span></div>
+                    </div>
+                    <div class="bg-white/80 border border-emerald-900/10 p-6 rounded shadow-2xs">
+                        <span class="text-[10px] uppercase tracking-wider font-bold text-emerald-700">Free Cash Flow (LTM)</span>
+                        <div class="text-2xl font-bold text-emerald-950 mt-1 font-sans">$2.4B <span class="text-xs text-emerald-600 font-normal">USD</span></div>
+                    </div>
+                    <div class="bg-white/80 border border-emerald-900/10 p-6 rounded shadow-2xs sm:col-span-2">
+                        <span class="text-[10px] uppercase tracking-wider font-bold text-emerald-700">Strategic Portfolio Focus</span>
+                        <div class="text-sm font-semibold text-emerald-900 mt-1 flex justify-between items-center">
+                            <span>Upstream / Physical Minerals Account</span>
+                            <span class="text-xs px-2 py-0.5 bg-emerald-100 text-emerald-800 font-mono rounded font-bold">AUDITED</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Company Profile & Core Strategy Section -->
+        <section id="about" class="py-20 px-6 md:px-12 max-w-7xl mx-auto">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+                <div class="lg:col-span-4">
+                    <span class="text-xs font-bold uppercase tracking-widest text-cenovus-green code-font">Section 01 // Corporate Overview</span>
+                    <h2 class="heading-font text-2xl md:text-3xl font-bold text-emerald-950 mt-2">Strategic Direction & Governance</h2>
+                </div>
+                <div class="lg:col-span-8 space-y-6 text-emerald-900/80 text-sm leading-relaxed">
+                    <p>
+                        Cenovus Energy focuses on safe, reliable, and compliant processing metrics. Our operations span oil sands projects in northern Alberta, thermal recovery pools, downstream refining logistics networks, and designated capital allocations designed to secure reliable growth horizons.
+                    </p>
+                    <p>
+                        Our operational framework balances strict cost structures with precise physical inventory optimization. This strategy ensures that centralized asset streams remain highly stable and transparent for all credentialed global institutional stakeholders.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Infrastructure & Operations Tracking Map Section -->
+        <section id="operations" class="py-20 px-6 md:px-12 bg-[#E8EFEA] border-y border-emerald-900/10">
+            <div class="max-w-7xl mx-auto">
+                <span class="text-xs font-bold uppercase tracking-widest text-emerald-700 code-font">Section 02 // Production Grid</span>
+                <h2 class="heading-font text-2xl md:text-3xl font-bold text-emerald-950 mt-2 mb-10">Upstream Assets & Refining Framework</h2>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <div class="bg-white/90 border border-emerald-900/5 p-6 rounded shadow-2xs">
+                        <div class="w-2 h-2 rounded-full cenovus-green-accent mb-4"></div>
+                        <h3 class="font-bold text-emerald-950 text-sm uppercase tracking-wide mb-1">Oil Sands & Thermal</h3>
+                        <p class="text-xs text-emerald-800/80 leading-relaxed">Foster Creek and Christina Lake installations utilizing optimized steam-assisted gravity drainage technology configurations.</p>
+                    </div>
+                    <div class="bg-white/90 border border-emerald-900/5 p-6 rounded shadow-2xs">
+                        <div class="w-2 h-2 rounded-full bg-[#1A2E22] mb-4"></div>
+                        <h3 class="font-bold text-emerald-950 text-sm uppercase tracking-wide mb-1">Downstream Refining</h3>
+                        <p class="text-xs text-emerald-800/80 leading-relaxed">Strategic processing terminals across North America handling complex hydrocarbons and upgrading structural distribution lines.</p>
+                    </div>
+                    <div class="bg-white/90 border border-emerald-900/5 p-6 rounded shadow-2xs">
+                        <div class="w-2 h-2 rounded-full bg-emerald-600 mb-4"></div>
+                        <h3 class="font-bold text-emerald-950 text-sm uppercase tracking-wide mb-1">Isolated Mineral Equity</h3>
+                        <p class="text-xs text-emerald-800/80 leading-relaxed">Monitored high-purity precious metal asset accounts and physical logistics contracts to hedge macro-risk frameworks.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Verified Institutional Shareholder Registry Module -->
+        <section id="registry" class="py-20 px-6 md:px-12 bg-[#F1F5F2]">
+            <div class="max-w-7xl mx-auto">
+                <div class="flex flex-col lg:flex-row lg:items-end justify-between mb-10 gap-6">
+                    <div>
+                        <span class="text-xs font-bold uppercase tracking-widest text-cenovus-green code-font">Section 03 // Shareholder Matrix</span>
+                        <h2 class="heading-font text-2xl md:text-4xl font-extrabold text-emerald-950 mt-1">Global Institutional Registry</h2>
+                    </div>
+                    <p class="text-emerald-800/80 text-xs max-w-md leading-relaxed border-l-2 border-emerald-700/30 pl-4">
+                        <strong>Public Registry Notice:</strong> Authenticated audit log tracking validated capital distribution accounts. Select the highlighted node for deep analytical review and secure verification pathways.
+                    </p>
+                </div>
+
+                <!-- Professional Corporate Data Table Layer -->
+                <div class="overflow-x-auto border border-emerald-900/10 bg-white rounded shadow-xs">
+                    <table class="w-full text-left text-xs uppercase tracking-wider">
+                        <thead class="bg-emerald-50/50 text-emerald-800 border-b border-emerald-900/10 font-semibold text-[11px]">
+                            <tr>
+                                <th class="py-4 px-6">Account Holder Identity</th>
+                                <th class="py-4 px-6">Asset Portfolio Focus</th>
+                                <th class="py-4 px-6 text-right">Total Equity Allocation (USD)</th>
+                                <th class="py-4 px-6 text-right">Jurisdiction Root</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-emerald-900/5 text-emerald-900/90 code-font">
+                            <!-- Holder Entry 1 -->
+                            <tr class="hover:bg-emerald-50/20 transition-colors">
+                                <td class="py-4 px-6 font-sans font-medium text-emerald-950">David Vance</td>
+                                <td class="py-4 px-6 tracking-normal text-emerald-800/70 font-sans normal-case">Strategic Commercial Infrastructure</td>
+                                <td class="py-4 px-6 text-right font-bold text-emerald-950">$410,000</td>
+                                <td class="py-4 px-6 text-right font-sans tracking-normal font-medium text-emerald-800">United Kingdom</td>
+                            </tr>
+                            
+                            <!-- MODERN INTERACTIVE HIGHLIGHT UNIT: MARIA LANGE -->
+                            <tr class="bg-emerald-600/[0.04] border-y border-emerald-600/20 hover:bg-emerald-600/[0.08] transition-all">
+                                <td class="py-4 px-6 font-sans font-bold text-emerald-950">
+                                    <button onclick="openStakeholderModal()" class="flex items-center gap-2 text-left hover:text-cenovus-green focus:outline-none transition-colors group">
+                                        <span class="w-2 h-2 rounded-full bg-[#3B7A57] animate-pulse"></span>
+                                        <span class="group-hover:underline">Maria Lange</span>
+                                        <span class="text-[9px] font-mono font-normal tracking-wide text-emerald-800 bg-emerald-50 border border-emerald-600/20 px-1.5 py-0.5 rounded ml-1">Inspect Node</span>
+                                    </button>
+                                </td>
+                                <td class="py-4 px-6 tracking-normal text-emerald-950 font-sans font-semibold normal-case">Physical Bullion Logistics</td>
+                                <td class="py-4 px-6 text-right font-bold text-emerald-900 text-sm">$645,000</td>
+                                <td class="py-4 px-6 text-right font-sans tracking-normal font-bold text-emerald-900">Germany</td>
+                            </tr>
+                            
+                            <!-- Holder Entry 3 -->
+                            <tr class="hover:bg-emerald-50/20 transition-colors">
+                                <td class="py-4 px-6 font-sans font-medium text-emerald-950">Aaron Brooks</td>
+                                <td class="py-4 px-6 tracking-normal text-emerald-800/70 font-sans normal-case">Fixed-Income Corporate Instruments</td>
+                                <td class="py-4 px-6 text-right font-bold text-emerald-950">$115,000</td>
+                                <td class="py-4 px-6 text-right font-sans tracking-normal font-medium text-emerald-800">United States</td>
+                            </tr>
+                            
+                            <!-- Holder Entry 4 -->
+                            <tr class="hover:bg-emerald-50/20 transition-colors">
+                                <td class="py-4 px-6 font-sans font-medium text-emerald-950">Priya Nair</td>
+                                <td class="py-4 px-6 tracking-normal text-emerald-800/70 font-sans normal-case">Downstream Equity Assets</td>
+                                <td class="py-4 px-6 text-right font-bold text-emerald-950">$87,500</td>
+                                <td class="py-4 px-6 text-right font-sans tracking-normal font-medium text-emerald-800">India</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- ESG & Sustainability Governance Section -->
+        <section id="governance" class="py-20 px-6 md:px-12 bg-white border-t border-emerald-900/10">
+            <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                <div class="lg:col-span-6 space-y-6">
+                    <span class="text-xs font-bold uppercase tracking-widest text-emerald-700 code-font">Section 04 // ESG Commitments</span>
+                    <h2 class="heading-font text-2xl md:text-3xl font-bold text-emerald-950">Environmental Leadership & Progress</h2>
+                    <p class="text-emerald-900/80 text-sm leading-relaxed">
+                        Cenovus targets net-zero emissions from upstream operations by 2050. We actively monitor ecological parameters across water consumption channels, land restoration targets, and local community socioeconomic equity indexes.
+                    </p>
+                    <div class="border-l-2 border-cenovus-green pl-4 space-y-1">
+                        <h4 class="text-xs font-bold text-emerald-950 uppercase tracking-wide">Automated Water Recovery Architecture</h4>
+                        <p class="text-xs text-emerald-700">Recycling frameworks maintain low water intensities inside all active processing loops.</p>
+                    </div>
+                </div>
+                <div class="lg:col-span-6 bg-[#E8EFEA] p-8 border border-emerald-900/10 rounded shadow-2xs space-y-4">
+                    <div class="text-xs font-bold uppercase tracking-wider text-emerald-800 border-b border-emerald-900/10 pb-3">Performance Indices</div>
+                    <div class="space-y-3">
+                        <div class="flex justify-between text-xs font-medium"><span>Water Loop Reclamation Performance:</span> <span class="code-font text-emerald-700 font-bold">88%</span></div>
+                        <div class="flex justify-between text-xs font-medium"><span>Safety Incident Metrics (TRIR):</span> <span class="code-font text-emerald-700 font-bold">0.14</span></div>
+                        <div class="flex justify-between text-xs font-medium"><span>Independent Auditor Verification Score:</span> <span class="code-font text-emerald-950 font-bold">Tier-1 Apex</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Corporate Communications & Media Portal Section -->
+        <section id="contact" class="py-24 px-6 md:px-12 bg-[#1A2E22] text-white">
+            <div class="max-w-4xl mx-auto text-center space-y-6">
+                <span class="text-xs font-bold uppercase tracking-widest text-emerald-400 code-font">Corporate Communications Gateway</span>
+                <h2 class="heading-font text-3xl md:text-5xl font-extrabold tracking-tight">Institutional Inquiries & Investor Relations</h2>
+                <p class="text-emerald-200/60 text-xs sm:text-sm max-w-xl mx-auto leading-relaxed">
+                    Contact our media relations office or real-time asset alignment desk directly for corporate prospectus review, compliance audits, or account queries.
+                </p>
+
+                <!-- Professional Multi-Channel Connection Desk Grid -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-2xl mx-auto pt-6">
+                    <!-- Unit 1: Email Protocol -->
+                    <div class="bg-white/[0.03] border border-white/10 p-6 rounded text-left flex flex-col justify-between group hover:border-emerald-500/40 transition-all">
+                        <div>
+                            <div class="text-[10px] uppercase font-mono tracking-widest text-emerald-400 font-bold mb-1">Corporate Inquiries</div>
+                            <p class="text-emerald-200/40 text-xs font-light leading-normal mb-6">For official institutional records, documentation audits, and corporate distribution channels.</p>
+                        </div>
+                        <a href="mailto:cenovusenergy@gmail.com" class="block font-bold text-white group-hover:text-emerald-400 text-sm transition-colors break-all underline decoration-white/10 underline-offset-4">
+                            cenovusenergy@gmail.com
+                        </a>
+                    </div>
+
+                    <!-- Unit 2: Instant Secure Verification Gateway -->
+                    <div class="bg-white/[0.03] border border-white/10 p-6 rounded text-left flex flex-col justify-between group hover:border-emerald-500/40 transition-all">
+                        <div>
+                            <div class="text-[10px] uppercase font-mono tracking-widest text-emerald-400 font-bold mb-1">Secure Messaging Desk</div>
+                            <p class="text-emerald-200/40 text-xs font-light leading-normal mb-6">Real-time dynamic balance updates, processing system synchronization, and clearing metrics.</p>
+                        </div>
+                        <a href="https://wa.me/12267794193" target="_blank" class="block font-bold text-white group-hover:text-emerald-400 text-sm transition-colors font-mono underline decoration-white/10 underline-offset-4">
+                            +1 (226) 779-4193
+                        </a>
+                    </div>
+                </div>
+
+                <div class="text-[10px] text-emerald-300/40 font-mono pt-6 flex items-center justify-center gap-2">
+                    <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 inline-block animate-pulse"></span>
+                    Systems Logging Status: Active // Global Synchronization Stable
+                </div>
+            </div>
+        </section>
+
+        <!-- Official Institutional Corporate Footer -->
+        <footer class="bg-white py-12 px-6 md:px-12 border-t border-emerald-900/10 text-emerald-800/80 text-xs">
+            <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4 text-[11px]">
+                <div class="flex items-center space-x-3">
+                    <div class="w-4 h-4 cenovus-green-accent flex items-center justify-center rounded-xs">
+                        <span class="text-white text-[8px] font-black">C</span>
+                    </div>
+                    <span>&copy; 2026 Cenovus Energy Inc. All official corporate web assets and logistics ledgers reserved.</span>
+                </div>
+                <div class="code-font text-[10px] tracking-wider text-emerald-700/60 uppercase">
+                    SEC CIK #0001466172 // Calgary, Alberta Head Office
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <!-- PREMIUM ASYMMETRICAL STAKEHOLDER CONSOLE MODAL (Hidden By Default) -->
+    <div id="profileModal" class="fixed inset-0 z-50 hidden overflow-y-auto bg-[#1A2E22]/80 backdrop-blur-xs flex items-center justify-center p-4">
+        
+        <div class="bg-white w-full max-w-2xl rounded-xl border border-emerald-900/10 shadow-2xl overflow-hidden transform scale-95 transition-all duration-300 flex flex-col md:flex-row">
+            
+            <!-- Left Data Strip Panel (41% Width Configuration) -->
+            <div class="bg-[#1A2E22] text-white p-6 md:p-8 md:w-5/12 flex flex-col justify-between space-y-8 relative">
+                <div class="absolute inset-0 bg-[radial-gradient(#ffffff03_1px,transparent_1px)] [background-size:12px_12px] pointer-events-none"></div>
+                
+                <div class="space-y-4 relative z-10">
+                    <div class="w-6 h-6 cenovus-green-accent flex items-center justify-center rounded-xs">
+                        <span class="text-white text-[10px] font-black tracking-tighter">C</span>
+                    </div>
+                    <div>
+                        <span class="text-[9px] code-font uppercase tracking-widest text-emerald-300 font-semibold">Verified Registry Asset</span>
+                        <h3 class="heading-font text-xl font-bold text-white mt-1">Maria Lange</h3>
+                        <p class="text-xs text-emerald-200/60">Jurisdiction: Germany Profile</p>
+                    </div>
+                </div>
+
+                <div class="space-y-4 code-font text-xs border-t border-emerald-800 pt-4 relative z-10">
+                    <div>
+                        <div class="text-[9px] text-emerald-300/60 uppercase tracking-widest font-semibold mb-0.5">Account Setup Date</div>
+                        <div class="text-white font-sans">July 26, 2025</div>
+                    </div>
+                    <div>
+                        <div class="text-[9px] text-emerald-300/60 uppercase tracking-widest font-semibold mb-0.5">Audited Portfolio Equity</div>
+                        <div class="text-lg text-emerald-300 font-bold tracking-tight font-sans">$645,000.00</div>
+                    </div>
+                </div>
+
+                <button onclick="closeStakeholderModal()" class="w-full py-2.5 bg-white/10 hover:bg-white/15 text-white text-xs font-semibold uppercase tracking-wider transition-colors relative z-10 rounded-xs border border-white/5">
+                    Close Workspace
+                </button>
+            </div>
+
+            <!-- Right Asset Matrix & Procurement Command Center Panel (59% Width) -->
+            <div class="p-6 md:p-8 md:w-7/12 space-y-6 flex flex-col justify-between bg-white text-emerald-950">
+                
+                <!-- Allocation Mechanics Details -->
+                <div>
+                    <h4 class="heading-font text-xs font-bold uppercase tracking-wider text-emerald-700/80 border-b border-emerald-100 pb-2 mb-3">
+                        Asset Allocation Pacing Profile
+                    </h4>
+                    <div class="space-y-3 text-xs">
+                        <div class="flex justify-between items-center">
+                            <span class="text-emerald-800/70">Weekly Accumulation Pacing:</span>
+                            <span class="code-font font-bold text-emerald-950">$15,000.00 / Week</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="text-emerald-800/70">Calculated Accrual Duration:</span>
+                            <span class="code-font font-bold text-emerald-950">43 Weeks Continuous</span>
+                        </div>
+                        <hr class="border-emerald-100">
+                        <div class="flex justify-between items-center text-sm">
+                            <span class="font-medium text-emerald-950">Aggregated Capital Value:</span>
+                            <span class="code-font font-bold text-cenovus-green">$645,000.00</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Instant Administrative Procurement Links -->
+                <div class="bg-[#E8EFEA] border border-emerald-900/10 rounded-lg p-4 space-y-3">
+                    <div>
+                        <div class="text-[9px] code-font uppercase tracking-widest text-emerald-700 font-bold">Authorized Operations Portal</div>
+                        <h4 class="heading-font text-xs font-bold text-emerald-950 mt-0.5">Secure Incremental Asset Blocks</h4>
+                    </div>
+                    <p class="text-[11px] text-emerald-800/80 leading-normal">
+                        Expand Maria Lange's allocation parameters instantly. Select a block to initialize structured transaction strings to the secure WhatsApp desk.
+                    </p>
+
+                    <!-- Pre-populated WhatsApp Invoicing Triggers -->
+                    <div class="grid grid-cols-2 gap-2 pt-1 text-xs">
+                        <a href="https://wa.me/12267794193?text=Requesting%20Tier-1%20Gold%20Purchase%20for%20Maria%20Lange" target="_blank" class="p-2.5 bg-white border border-emerald-900/10 hover:border-emerald-600 rounded text-left transition-all group shadow-2xs">
+                            <span class="block text-[10px] code-font text-emerald-700 font-bold">Tier-1 Block</span>
+                            <span class="heading-font font-bold text-emerald-950 flex justify-between items-center mt-0.5">
+                                +$5,000 <span class="text-emerald-600 group-hover:translate-x-0.5 transition-transform">→</span>
+                            </span>
+                        </a>
+                        <a href="https://wa.me/12267794193?text=Requesting%20Tier-2%20Gold%20Purchase%20for%20Maria%20Lange" target="_blank" class="p-2.5 bg-white border border-emerald-900/10 hover:border-emerald-600 rounded text-left transition-all group shadow-2xs">
+                            <span class="block text-[10px] code-font text-emerald-700 font-bold">Tier-2 Block</span>
+                            <span class="heading-font font-bold text-emerald-950 flex justify-between items-center mt-0.5">
+                                +$10,000 <span class="text-emerald-600 group-hover:translate-x-0.5 transition-transform">→</span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Footer Identification Links -->
+                <div class="text-[10px] text-emerald-700/60 flex flex-col sm:flex-row justify-between pt-4 border-t border-emerald-100 gap-1 code-font">
+                    <span>Audit Core Routing:</span>
+                    <a href="mailto:cenovusenergy@gmail.com" class="text-slate-600 hover:text-cenovus-red underline">cenovusenergy@gmail.com</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Client-Side Modal Window Visibility Controller JavaScript -->
+    <script>
+        function openStakeholderModal() {
+            const modal = document.getElementById('profileModal');
+            modal.classList.remove('hidden');
+            document.body.style.overflow = 'hidden'; // Stop secondary window container layout scrolling
+        }
+
+        function closeStakeholderModal() {
+            const modal = document.getElementById('profileModal');
+            modal.classList.add('hidden');
+            document.body.style.overflow = ''; // Resume standard baseline view container scrolling
+        }
+
+        // Catch clicking execution points outside modal boundaries
+        window.onclick = function(event) {
+            const modal = document.getElementById('profileModal');
+            if (event.target == modal) {
+                closeStakeholderModal();
+            }
+        }
+    </script>
+
+</body>
+</html>
